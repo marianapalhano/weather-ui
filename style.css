@@ -24,6 +24,16 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 300;
+}
+
+h4 {
+    font-weight: 300;
+}
+
 .phone-container {
     width: 350px;
     height: 700px;
@@ -34,6 +44,7 @@ body {
     position: relative;
     color: #fff;
     text-align: center;
+    padding: 60px 10px 20px;
 }
 
 .phone-container .phone-notch {
@@ -42,6 +53,7 @@ body {
     background-color: #000;
     border-radius: 0 0 30px 30px;
     position: absolute;
+    top: 0;
     left: calc(50% - 90px);
 }
 
@@ -53,4 +65,19 @@ body {
     position: absolute;
     bottom: 10px;
     left: calc(50% - 45px);
+}
+
+.phone-container svg {
+    width: 100px;
+    height: 100px;
+    margin: 30px 0 10px;
+}
+
+.week-weather {
+    text-align: left;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5px;
+    color: var(--light-gray);
 }
